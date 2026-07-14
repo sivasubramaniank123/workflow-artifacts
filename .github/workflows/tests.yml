@@ -27,7 +27,7 @@ jobs:
       with:
         name: test-coverage-report
         path: coverage/
-e2e:
+ e2e:
     name: E2E Tests with Playwright
     runs-on: ubuntu-latest
     steps:
